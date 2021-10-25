@@ -1,0 +1,57 @@
+.dad {
+    background-color: rgb(68, 76, 85);
+    height: 350px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.box1 {
+    background-color: rgb(35, 98, 170);
+    width: 150px;
+    height: 90%;
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: -5px -5px 10px 2px grey;
+}
+
+.box2 {
+    background-color: red;
+    height: 95%;
+    width: 90%;
+    border-radius: 18px;
+    box-shadow: 3px 3px 5px 2px black;
+    transition: transform 0.5s ease 0.15s;
+}
+
+.box2 h3 {
+    text-align: center;
+}
+
+.box2 p {
+    text-align: center;
+    font: normal 400 13px 'Microsoft yahe';
+}
+
+input {
+    text-align: center;
+    background-color: blue;
+    color: aliceblue;
+    border: 0;
+    border-radius: 4px;
+    height: 30px;
+    width: 85px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.box2:hover {
+    transform: translateY(-15px);
+}
