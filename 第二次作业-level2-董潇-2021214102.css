@@ -1,19 +1,17 @@
 .dad {
     background-color: rgb(68, 76, 85);
     height: 350px;
-    position: relative;
     display: flex;
     align-items: center;
     justify-items: center;
+    justify-content: space-between;
+    width: 800px;
 }
 
-.box1 {
+.box11 {
     background-color: rgb(35, 98, 170);
     width: 175px;
     height: 90%;
-    position: absolute;
-    left: 50%;
-    margin-left: -75px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -22,22 +20,26 @@
     box-shadow: -5px -5px 10px 2px grey;
 }
 
-.box2 {
+.box21 {
     background-color: red;
     height: 95%;
     width: 90%;
     border-radius: 18px;
     box-shadow: 3px 3px 5px 2px black;
-    transition: transform 0.5s ease 0.15s;
+    transition: transform 0.5s ease 0.1s;
 }
 
-.box2 h3 {
+.box21 h3 {
     text-align: center;
 }
 
-.box2 p {
+.box21 p {
     text-align: center;
     font: normal 400 13px 'Microsoft yahe';
+}
+
+.box21:hover {
+    transform: translateY(-15px);
 }
 
 input {
@@ -53,11 +55,75 @@ input {
     transition: all 0 ease 0.1s;
 }
 
-.box2:hover {
-    transform: translateY(-15px);
-}
-
 input:hover {
     background-color: aliceblue;
     color: black;
+}
+
+.box12 {
+    background-color: rgb(35, 98, 170);
+    width: 175px;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: -5px -5px 10px 2px grey;
+}
+
+.box22 {
+    background-color: red;
+    height: 95%;
+    width: 90%;
+    border-radius: 18px;
+    box-shadow: 3px 3px 5px 2px black;
+    transition: transform 0.5s ease 0.1s;
+}
+
+.box22 h3 {
+    text-align: center;
+}
+
+.box22 p {
+    text-align: center;
+    font: normal 400 13px 'Microsoft yahe';
+}
+
+.box22:hover {
+    transform: translateY(-15px);
+}
+
+.box13 {
+    background-color: rgb(35, 98, 170);
+    width: 175px;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: -5px -5px 10px 2px grey;
+}
+
+.box23 {
+    background-color: red;
+    height: 95%;
+    width: 90%;
+    border-radius: 18px;
+    box-shadow: 3px 3px 5px 2px black;
+    transition: transform 0.5s ease 0.1s;
+}
+
+.box23 h3 {
+    text-align: center;
+}
+
+.box23 p {
+    text-align: center;
+    font: normal 400 13px 'Microsoft yahe';
+}
+
+.box23:hover {
+    transform: translateY(-15px);
 }
