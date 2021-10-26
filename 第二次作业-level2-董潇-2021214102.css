@@ -1,50 +1,54 @@
 .dad {
-    background-color: rgb(68, 76, 85);
+    background-color: rgb(34, 37, 38);
     height: 350px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
     align-items: center;
     justify-items: center;
-    justify-content: space-between;
-    width: 800px;
+    justify-content: center;
 }
 
 .box11 {
-    background-color: rgb(35, 98, 170);
-    width: 175px;
+    background-color: rgb(34, 37, 38);
+    width: 200px;
     height: 90%;
+    justify-self: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 20px;
-    box-shadow: -5px -5px 10px 2px grey;
+    box-shadow: -5px -5px 10px 2px rgb(49, 49, 49);
 }
 
 .box21 {
-    background-color: red;
+    background-color: rgb(41, 43, 47);
     height: 95%;
     width: 90%;
     border-radius: 18px;
-    box-shadow: 3px 3px 5px 2px black;
+    box-shadow: 3px 3px 5px 2px rgb(49, 49, 49);
     transition: transform 0.5s ease 0.1s;
 }
 
 .box21 h3 {
     text-align: center;
+    color: aliceblue;
+    margin-top: 40px;
 }
 
 .box21 p {
+    color: aliceblue;
     text-align: center;
-    font: normal 400 13px 'Microsoft yahe';
+    font: normal 400 3px 'Microsoft yahe';
 }
 
 .box21:hover {
-    transform: translateY(-15px);
+    transform: translateY(-20px);
 }
 
-input {
+.sub1 {
     text-align: center;
-    background-color: blue;
+    background-color: rgb(32, 156, 246);
     color: aliceblue;
     border: 0;
     border-radius: 4px;
@@ -55,75 +59,119 @@ input {
     transition: all 0 ease 0.1s;
 }
 
-input:hover {
+.sub1:hover {
     background-color: aliceblue;
     color: black;
 }
 
 .box12 {
-    background-color: rgb(35, 98, 170);
-    width: 175px;
+    background-color: rgb(34, 37, 38);
+    width: 200px;
     height: 90%;
+    justify-self: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 20px;
-    box-shadow: -5px -5px 10px 2px grey;
+    box-shadow: -5px -5px 10px 2px rgb(49, 49, 49);
 }
 
 .box22 {
-    background-color: red;
+    background-color: rgb(41, 43, 47);
     height: 95%;
     width: 90%;
     border-radius: 18px;
-    box-shadow: 3px 3px 5px 2px black;
+    box-shadow: 3px 3px 5px 2px rgb(49, 49, 49);
     transition: transform 0.5s ease 0.1s;
 }
 
 .box22 h3 {
     text-align: center;
+    color: aliceblue;
+    margin-top: 40px;
 }
 
 .box22 p {
+    color: aliceblue;
     text-align: center;
-    font: normal 400 13px 'Microsoft yahe';
+    font: normal 400 3px 'Microsoft yahe';
 }
 
 .box22:hover {
-    transform: translateY(-15px);
+    transform: translateY(-20px);
+}
+
+.sub2 {
+    text-align: center;
+    background-color: rgb(236, 35, 102);
+    color: aliceblue;
+    border: 0;
+    border-radius: 4px;
+    height: 30px;
+    width: 85px;
+    margin: 15px;
+    cursor: pointer;
+    transition: all 0 ease 0.1s;
+}
+
+.sub2:hover {
+    background-color: aliceblue;
+    color: black;
 }
 
 .box13 {
-    background-color: rgb(35, 98, 170);
-    width: 175px;
+    background-color: rgb(34, 37, 38);
+    width: 200px;
     height: 90%;
+    justify-self: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 20px;
-    box-shadow: -5px -5px 10px 2px grey;
+    box-shadow: -5px -5px 10px 2px rgb(49, 49, 49);
 }
 
 .box23 {
-    background-color: red;
+    background-color: rgb(41, 43, 47);
     height: 95%;
     width: 90%;
     border-radius: 18px;
-    box-shadow: 3px 3px 5px 2px black;
+    box-shadow: 3px 3px 5px 2px rgb(49, 49, 49);
     transition: transform 0.5s ease 0.1s;
 }
 
 .box23 h3 {
     text-align: center;
+    color: aliceblue;
+    margin-top: 40px;
 }
 
 .box23 p {
+    color: aliceblue;
     text-align: center;
-    font: normal 400 13px 'Microsoft yahe';
+    font: normal 400 3px 'Microsoft yahe';
 }
 
 .box23:hover {
-    transform: translateY(-15px);
+    transform: translateY(-20px);
+}
+
+.sub3 {
+    text-align: center;
+    background-color: rgb(36, 189, 135);
+    color: aliceblue;
+    border: 0;
+    border-radius: 4px;
+    height: 30px;
+    width: 85px;
+    margin: 15px;
+    cursor: pointer;
+    transition: all 0 ease 0.1s;
+}
+
+.sub3:hover {
+    background-color: aliceblue;
+    color: black;
 }
