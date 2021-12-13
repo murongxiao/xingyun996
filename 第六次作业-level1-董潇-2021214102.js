@@ -1,4 +1,4 @@
-const boxs = document.querySelectorAll("div");
+const boxes = document.querySelectorAll("div");
 
 let move = (t) => {
     return new Promise((resolve) => {
@@ -9,7 +9,7 @@ let move = (t) => {
 }
 
 async function run() {
-    for (const box of boxs) {
+    for (const box of boxes) {
         box.classList.add("run")
         await move(1000);
     }
